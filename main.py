@@ -1,6 +1,5 @@
 import os
 import logging
-from typing import Literal, Any
 from dotenv import load_dotenv
 
 import requests
