@@ -1,0 +1,5 @@
+# Python version
+target-version = "py312"
+
+# Folders ignored by Ruff
+exclude = [".venv", "build", "__pycache__"]

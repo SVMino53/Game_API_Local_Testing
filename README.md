@@ -6,4 +6,4 @@ A repository used for testing fetching game data through APIs, and working with 
 
 ## External Sources
 
-[IGDB API documentation](https://api-docs.igdb.com/#getting-started)
+[IGDB API documentation](https://api-docs.igdb.com)
