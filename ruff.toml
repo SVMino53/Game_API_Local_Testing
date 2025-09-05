@@ -1,5 +1,8 @@
 # Python version
 target-version = "py312"
 
+# Max line length
+line-length = 88
+
 # Folders ignored by Ruff
 exclude = [".venv", "build", "__pycache__"]
