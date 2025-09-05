@@ -47,7 +47,7 @@ class APIData:
                     "grant_type": "client_credentials"
                 }
             )
-            
+
             auth_data = response.json()
             return auth_data
         except Exception as e:
@@ -72,7 +72,8 @@ class APIData:
         """
         try:
             # Construct the data query
-            data_query = f"fields {",".join(data_fields)};" if data_fields else "fields id;"
+            data_query = f"fields {",".join(data_fields)};" if data_fields \
+                else "fields id;"
             data_query += f" limit {data_limit};" if data_limit else " limit 10;"
             
             # Make the API request
